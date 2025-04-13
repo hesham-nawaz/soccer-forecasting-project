@@ -1,0 +1,6 @@
+[submodule "Club-Football-Match-Data-2000-2025"]
+	path = Club-Football-Match-Data-2000-2025
+	url = https://github.com/xgabora/Club-Football-Match-Data-2000-2025.git
+[submodule "Match-Data"]
+	path = Match-Data
+	url = https://github.com/ashhad0030/Match-Data.git
