@@ -4,3 +4,19 @@
 # Ignore macOS system files
 .DS_Store
 **/.DS_Store
+
+# Virtual environment
+soccer-forecasting-env/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
