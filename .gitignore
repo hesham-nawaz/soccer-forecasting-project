@@ -1,5 +1,6 @@
 # Ignore data directory
 /data/
+.env
 
 # Ignore macOS system files
 .DS_Store
