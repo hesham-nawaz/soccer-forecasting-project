@@ -54,4 +54,4 @@ def scrape_results(filename):
 
 
 if __name__ == "__main__":
-    scrape_results("results\\PL Standings.csv")
+    scrape_results("..\\results\\PL Standings.csv")
