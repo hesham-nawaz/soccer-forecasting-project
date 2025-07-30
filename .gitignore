@@ -21,3 +21,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Ignore miscellaneous data folders
+Additional_Data/
