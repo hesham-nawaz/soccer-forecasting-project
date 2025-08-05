@@ -1,0 +1,288 @@
+/* Custom styles for Soccer Predictions App */
+
+:root {
+    --primary-color: #1e3a8a;
+    --secondary-color: #64748b;
+    --success-color: #059669;
+    --danger-color: #dc2626;
+    --warning-color: #d97706;
+    --light-bg: #f8fafc;
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+body {
+    background-color: var(--light-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #3b82f6 100%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Match card styling */
+.match-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background: white;
+}
+
+.match-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    border-bottom: 1px solid #e5e7eb;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* VS Circle */
+.vs-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color) 0%, #3b82f6 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+/* Prediction boxes */
+.prediction-box {
+    padding: 12px 8px;
+    border-radius: 8px;
+    margin: 4px 0;
+    transition: transform 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.prediction-box:hover {
+    transform: scale(1.05);
+}
+
+.prediction-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.prediction-value {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Home win styling */
+.home-win {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    border-color: #22c55e;
+    color: #166534;
+}
+
+.home-win .prediction-value {
+    color: #15803d;
+}
+
+/* Draw styling */
+.draw {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-color: #f59e0b;
+    color: #92400e;
+}
+
+.draw .prediction-value {
+    color: #d97706;
+}
+
+/* Away win styling */
+.away-win {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    border-color: #ef4444;
+    color: #991b1b;
+}
+
+.away-win .prediction-value {
+    color: #dc2626;
+}
+
+/* Prediction badges */
+.prediction-badge {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.prediction-h {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    color: white;
+}
+
+.prediction-d {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+}
+
+.prediction-a {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: white;
+}
+
+/* Team names */
+.card-body h5 {
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 4px;
+}
+
+/* Loading overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+/* Filter buttons */
+.btn-group .btn {
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-group .btn.active {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+/* Search input */
+.input-group .form-control {
+    border-radius: 6px 0 0 6px;
+    border: 1px solid #d1d5db;
+}
+
+.input-group .btn {
+    border-radius: 0 6px 6px 0;
+    border: 1px solid #d1d5db;
+    border-left: none;
+}
+
+/* Pagination */
+.pagination .page-link {
+    border-radius: 6px;
+    margin: 0 2px;
+    border: 1px solid #e5e7eb;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.pagination .page-link:hover {
+    background-color: #f1f5f9;
+    border-color: var(--primary-color);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .input-group {
+        width: 200px !important;
+    }
+    
+    .prediction-box {
+        padding: 8px 4px;
+    }
+    
+    .prediction-value {
+        font-size: 16px;
+    }
+    
+    .vs-circle {
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .input-group {
+        width: 100% !important;
+    }
+    
+    .btn-group {
+        width: 100%;
+    }
+    
+    .btn-group .btn {
+        flex: 1;
+    }
+}
+
+/* Animation for cards */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.match-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+} 

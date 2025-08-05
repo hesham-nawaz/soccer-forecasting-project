@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPL 2025/26 Season Predictions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header class="row bg-primary text-white py-3 mb-4">
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h1 class="mb-0">
+                        <i class="fas fa-futbol me-2"></i>
+                        EPL 2025/26 Season Predictions
+                    </h1>
+                    <div class="d-flex align-items-center">
+                        <span class="badge bg-light text-dark me-3">
+                            <i class="fas fa-calendar me-1"></i>
+                            {{ total_matches }} Matches
+                        </span>
+                        <div class="input-group" style="width: 300px;">
+                            <input type="text" class="form-control" id="teamFilter" placeholder="Search teams...">
+                            <button class="btn btn-outline-light" type="button" id="searchBtn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Controls -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-primary active" data-filter="all">All Matches</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="upcoming">Upcoming</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="completed">Completed</button>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <label class="me-2">Matches per page:</label>
+                        <select class="form-select form-select-sm" id="perPage" style="width: 80px;">
+                            <option value="15">15</option>
+                            <option value="30">30</option>
+                            <option value="50">50</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Matches Container -->
+        <div class="row" id="matchesContainer">
+            {% for match in matches %}
+            <div class="col-12 col-lg-6 col-xl-4 mb-4">
+                <div class="card match-card h-100">
+                    <div class="card-header bg-light">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">
+                                <i class="fas fa-calendar me-1"></i>
+                                {{ match.date }}
+                                {% if match.time != 'TBD' %}
+                                <i class="fas fa-clock ms-2 me-1"></i>
+                                {{ match.time }}
+                                {% endif %}
+                            </small>
+                            <span class="badge bg-secondary">{{ loop.index }}/{{ total_matches }}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <!-- Teams and Score -->
+                        <div class="row align-items-center mb-3">
+                            <div class="col-5 text-end">
+                                <h5 class="mb-1">{{ match.home_team }}</h5>
+                                <small class="text-muted">Elo: {{ match.home_elo }}</small>
+                            </div>
+                            <div class="col-2 text-center">
+                                <div class="vs-circle">VS</div>
+                            </div>
+                            <div class="col-5 text-start">
+                                <h5 class="mb-1">{{ match.away_team }}</h5>
+                                <small class="text-muted">Elo: {{ match.away_elo }}</small>
+                            </div>
+                        </div>
+
+                        <!-- Prediction Probabilities -->
+                        <div class="row mb-3">
+                            <div class="col-4 text-center">
+                                <div class="prediction-box home-win">
+                                    <div class="prediction-label">Home Win</div>
+                                    <div class="prediction-value">{{ match.home_win_prob }}%</div>
+                                </div>
+                            </div>
+                            <div class="col-4 text-center">
+                                <div class="prediction-box draw">
+                                    <div class="prediction-label">Draw</div>
+                                    <div class="prediction-value">{{ match.draw_prob }}%</div>
+                                </div>
+                            </div>
+                            <div class="col-4 text-center">
+                                <div class="prediction-box away-win">
+                                    <div class="prediction-label">Away Win</div>
+                                    <div class="prediction-value">{{ match.away_win_prob }}%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Predicted Outcome -->
+                        <div class="text-center">
+                            <span class="badge fs-6 prediction-badge prediction-{{ match.predicted_outcome.lower() }}">
+                                Predicted: {{ match.predicted_outcome }}
+                            </span>
+                        </div>
+
+                        <!-- Elo Difference -->
+                        <div class="text-center mt-2">
+                            <small class="text-muted">
+                                Elo Difference: 
+                                <span class="fw-bold {% if match.elo_diff > 0 %}text-success{% elif match.elo_diff < 0 %}text-danger{% else %}text-secondary{% endif %}">
+                                    {{ match.elo_diff }}
+                                </span>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Pagination -->
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="Matches pagination">
+                    <ul class="pagination justify-content-center" id="pagination">
+                        <!-- Pagination will be populated by JavaScript -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-overlay d-none">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html> 
