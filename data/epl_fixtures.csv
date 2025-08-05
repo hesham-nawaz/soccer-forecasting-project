@@ -1,0 +1,381 @@
+home_team,away_team,date,time
+Liverpool,AFC Bournemouth,2025-08-15,20:00
+Aston Villa,Newcastle United,2025-08-16,15:00
+Brighton & Hove Albion,Fulham,2025-08-16,15:00
+Sunderland,West Ham United,2025-08-16,15:00
+Tottenham Hotspur,Burnley,2025-08-16,15:00
+Wolves,Manchester City,2025-08-16,17:30
+Chelsea,Crystal Palace,2025-08-17,14:00
+Nottingham Forest,Brentford,2025-08-17,14:00
+Manchester United,Arsenal,2025-08-17,16:30
+Leeds United,Everton,2025-08-18,20:00
+West Ham United,Chelsea,2025-08-22,20:00
+Manchester City,Tottenham Hotspur,2025-08-23,12:30
+AFC Bournemouth,Wolves,2025-08-23,15:00
+Brentford,Aston Villa,2025-08-23,15:00
+Burnley,Sunderland,2025-08-23,15:00
+Arsenal,Leeds United,2025-08-23,17:30
+Crystal Palace,Nottingham Forest,2025-08-24,14:00
+Everton,Brighton,2025-08-24,14:00
+Fulham,Manchester United,2025-08-24,16:30
+Newcastle United,Liverpool,2025-08-25,20:00
+Aston Villa,Crystal Palace,2025-08-29,20:00
+Chelsea,Fulham,2025-08-30,12:30
+Manchester United,Burnley,2025-08-30,15:00
+Sunderland,Brentford,2025-08-30,15:00
+Tottenham Hotspur,AFC Bournemouth,2025-08-30,15:00
+Wolves,Everton,2025-08-30,15:00
+Leeds United,Newcastle United,2025-08-30,17:30
+Brighton,Manchester City,2025-08-31,14:00
+Nottingham Forest,West Ham United,2025-08-31,14:00
+Liverpool,Arsenal,2025-08-31,16:30
+Arsenal,Nottingham Forest,2025-09-13,12:30
+AFC Bournemouth,Brighton,2025-09-13,15:00
+Crystal Palace,Sunderland,2025-09-13,15:00
+Everton,Aston Villa,2025-09-13,15:00
+Fulham,Leeds United,2025-09-13,15:00
+Newcastle United,Wolves,2025-09-13,15:00
+West Ham United,Tottenham Hotspur,2025-09-13,17:30
+Brentford,Chelsea,2025-09-13,20:00
+Burnley,Liverpool,2025-09-14,14:00
+Manchester City,Manchester United,2025-09-14,16:30
+Liverpool,Everton,2025-09-20,12:30
+AFC Bournemouth,Newcastle United,2025-09-20,15:00
+Brighton,Tottenham Hotspur,2025-09-20,15:00
+Burnley,Nottingham Forest,2025-09-20,15:00
+West Ham United,Crystal Palace,2025-09-20,15:00
+Wolves,Leeds United,2025-09-20,15:00
+Manchester United,Chelsea,2025-09-20,17:30
+Fulham,Brentford,2025-09-20,20:00
+Sunderland,Aston Villa,2025-09-21,14:00
+Arsenal,Manchester City,2025-09-21,16:30
+Brentford,Manchester United,2025-09-27,12:30
+Aston Villa,Fulham,2025-09-27,15:00
+Chelsea,Brighton,2025-09-27,15:00
+Crystal Palace,Liverpool,2025-09-27,15:00
+Leeds United,AFC Bournemouth,2025-09-27,15:00
+Manchester City,Burnley,2025-09-27,15:00
+Nottingham Forest,Sunderland,2025-09-27,17:30
+Tottenham Hotspur,Wolves,2025-09-27,14:00
+Newcastle United,Arsenal,2025-09-27,16:30
+Everton,West Ham United,2025-09-28,20:00
+AFC Bournemouth,Fulham,2025-10-04,TBD
+Arsenal,West Ham United,2025-10-04,TBD
+Aston Villa,Burnley,2025-10-04,TBD
+Brentford,Manchester City,2025-10-04,TBD
+Chelsea,Liverpool,2025-10-04,TBD
+Everton,Crystal Palace,2025-10-04,TBD
+Leeds United,Tottenham Hotspur,2025-10-04,TBD
+Manchester United,Sunderland,2025-10-04,TBD
+Newcastle United,Nottingham Forest,2025-10-04,TBD
+Wolves,Brighton,2025-10-04,TBD
+Brighton,Newcastle United,2025-10-18,TBD
+Burnley,Leeds United,2025-10-18,TBD
+Crystal Palace,AFC Bournemouth,2025-10-18,TBD
+Fulham,Arsenal,2025-10-18,TBD
+Liverpool,Manchester United,2025-10-18,TBD
+Manchester City,Everton,2025-10-18,TBD
+Nottingham Forest,Chelsea,2025-10-18,TBD
+Sunderland,Wolves,2025-10-18,TBD
+Tottenham Hotspur,Aston Villa,2025-10-18,TBD
+West Ham United,Brentford,2025-10-18,TBD
+AFC Bournemouth,Nottingham Forest,2025-10-25,TBD
+Arsenal,Crystal Palace,2025-10-25,TBD
+Aston Villa,Manchester City,2025-10-25,TBD
+Brentford,Liverpool,2025-10-25,TBD
+Chelsea,Sunderland,2025-10-25,TBD
+Everton,Tottenham Hotspur,2025-10-25,TBD
+Leeds United,West Ham United,2025-10-25,TBD
+Manchester United,Brighton,2025-10-25,TBD
+Newcastle United,Fulham,2025-10-25,TBD
+Wolves,Burnley,2025-10-25,TBD
+Brighton,Leeds United,2025-11-01,TBD
+Burnley,Arsenal,2025-11-01,TBD
+Crystal Palace,Brentford,2025-11-01,TBD
+Fulham,Wolves,2025-11-01,TBD
+Liverpool,Aston Villa,2025-11-01,TBD
+Manchester City,AFC Bournemouth,2025-11-01,TBD
+Nottingham Forest,Manchester United,2025-11-01,TBD
+Sunderland,Everton,2025-11-01,TBD
+Tottenham Hotspur,Chelsea,2025-11-01,TBD
+West Ham United,Newcastle United,2025-11-01,TBD
+Aston Villa,AFC Bournemouth,2025-11-08,TBD
+Brentford,Newcastle United,2025-11-08,TBD
+Chelsea,Wolves,2025-11-08,TBD
+Crystal Palace,Brighton,2025-11-08,TBD
+Everton,Fulham,2025-11-08,TBD
+Manchester City,Liverpool,2025-11-08,TBD
+Nottingham Forest,Leeds United,2025-11-08,TBD
+Sunderland,Arsenal,2025-11-08,TBD
+Tottenham Hotspur,Manchester United,2025-11-08,TBD
+West Ham United,Burnley,2025-11-08,TBD
+AFC Bournemouth,West Ham United,2025-11-22,TBD
+Arsenal,Tottenham Hotspur,2025-11-22,TBD
+Brighton,Brentford,2025-11-22,TBD
+Burnley,Chelsea,2025-11-22,TBD
+Fulham,Sunderland,2025-11-22,TBD
+Leeds United,Aston Villa,2025-11-22,TBD
+Liverpool,Nottingham Forest,2025-11-22,TBD
+Manchester United,Everton,2025-11-22,TBD
+Newcastle United,Manchester City,2025-11-22,TBD
+Wolves,Crystal Palace,2025-11-22,TBD
+Aston Villa,Wolves,2025-11-29,TBD
+Brentford,Burnley,2025-11-29,TBD
+Chelsea,Arsenal,2025-11-29,TBD
+Crystal Palace,Manchester United,2025-11-29,TBD
+Everton,Newcastle United,2025-11-29,TBD
+Manchester City,Leeds United,2025-11-29,TBD
+Nottingham Forest,Brighton,2025-11-29,TBD
+Sunderland,AFC Bournemouth,2025-11-29,TBD
+Tottenham Hotspur,Fulham,2025-11-29,TBD
+West Ham United,Liverpool,2025-11-29,TBD
+AFC Bournemouth,Everton,2025-12-03,TBD
+Arsenal,Brentford,2025-12-03,TBD
+Brighton,Aston Villa,2025-12-03,TBD
+Burnley,Crystal Palace,2025-12-03,TBD
+Fulham,Manchester City,2025-12-03,TBD
+Leeds United,Chelsea,2025-12-03,TBD
+Liverpool,Sunderland,2025-12-03,TBD
+Manchester United,West Ham United,2025-12-03,TBD
+Newcastle United,Tottenham Hotspur,2025-12-03,TBD
+Wolves,Nottingham Forest,2025-12-03,TBD
+AFC Bournemouth,Chelsea,2025-12-06,TBD
+Aston Villa,Arsenal,2025-12-06,TBD
+Brighton,West Ham United,2025-12-06,TBD
+Everton,Nottingham Forest,2025-12-06,TBD
+Fulham,Crystal Palace,2025-12-06,TBD
+Leeds United,Liverpool,2025-12-06,TBD
+Manchester City,Sunderland,2025-12-06,TBD
+Newcastle United,Burnley,2025-12-06,TBD
+Tottenham Hotspur,Brentford,2025-12-06,TBD
+Wolves,Manchester United,2025-12-06,TBD
+Arsenal,Wolves,2025-12-13,TBD
+Brentford,Leeds United,2025-12-13,TBD
+Burnley,Fulham,2025-12-13,TBD
+Chelsea,Everton,2025-12-13,TBD
+Crystal Palace,Manchester City,2025-12-13,TBD
+Liverpool,Brighton,2025-12-13,TBD
+Manchester United,AFC Bournemouth,2025-12-13,TBD
+Nottingham Forest,Tottenham Hotspur,2025-12-13,TBD
+Sunderland,Newcastle United,2025-12-13,TBD
+West Ham United,Aston Villa,2025-12-13,TBD
+AFC Bournemouth,Burnley,2025-12-20,TBD
+Aston Villa,Manchester United,2025-12-20,TBD
+Brighton,Sunderland,2025-12-20,TBD
+Everton,Arsenal,2025-12-20,TBD
+Fulham,Nottingham Forest,2025-12-20,TBD
+Leeds United,Crystal Palace,2025-12-20,TBD
+Manchester City,West Ham United,2025-12-20,TBD
+Newcastle United,Chelsea,2025-12-20,TBD
+Tottenham Hotspur,Liverpool,2025-12-20,TBD
+Wolves,Brentford,2025-12-20,TBD
+Arsenal,Brighton,2025-12-27,TBD
+Brentford,AFC Bournemouth,2025-12-27,TBD
+Burnley,Everton,2025-12-27,TBD
+Chelsea,Aston Villa,2025-12-27,TBD
+Crystal Palace,Tottenham Hotspur,2025-12-27,TBD
+Liverpool,Wolves,2025-12-27,TBD
+Manchester United,Newcastle United,2025-12-27,TBD
+Nottingham Forest,Manchester City,2025-12-27,TBD
+Sunderland,Leeds United,2025-12-27,TBD
+West Ham United,Fulham,2025-12-27,TBD
+Arsenal,Aston Villa,2025-12-30,TBD
+Brentford,Tottenham Hotspur,2025-12-30,TBD
+Burnley,Newcastle United,2025-12-30,TBD
+Chelsea,AFC Bournemouth,2025-12-30,TBD
+Crystal Palace,Fulham,2025-12-30,TBD
+Liverpool,Leeds United,2025-12-30,TBD
+Manchester United,Wolves,2025-12-30,TBD
+Nottingham Forest,Everton,2025-12-30,TBD
+Sunderland,Manchester City,2025-12-30,TBD
+West Ham United,Brighton,2025-12-30,TBD
+AFC Bournemouth,Arsenal,2026-01-03,TBD
+Aston Villa,Nottingham Forest,2026-01-03,TBD
+Brighton,Burnley,2026-01-03,TBD
+Everton,Brentford,2026-01-03,TBD
+Fulham,Liverpool,2026-01-03,TBD
+Leeds United,Manchester United,2026-01-03,TBD
+Manchester City,Chelsea,2026-01-03,TBD
+Newcastle United,Crystal Palace,2026-01-03,TBD
+Tottenham Hotspur,Sunderland,2026-01-03,TBD
+Wolves,West Ham United,2026-01-03,TBD
+AFC Bournemouth,Tottenham Hotspur,2026-01-07,TBD
+Arsenal,Liverpool,2026-01-07,TBD
+Brentford,Sunderland,2026-01-07,TBD
+Burnley,Manchester United,2026-01-07,TBD
+Crystal Palace,Aston Villa,2026-01-07,TBD
+Everton,Wolves,2026-01-07,TBD
+Fulham,Chelsea,2026-01-07,TBD
+Manchester City,Brighton,2026-01-07,TBD
+Newcastle United,Leeds United,2026-01-07,TBD
+West Ham United,Nottingham Forest,2026-01-07,TBD
+Aston Villa,Everton,2026-01-17,TBD
+Brighton,AFC Bournemouth,2026-01-17,TBD
+Chelsea,Brentford,2026-01-17,TBD
+Leeds United,Fulham,2026-01-17,TBD
+Liverpool,Burnley,2026-01-17,TBD
+Manchester United,Manchester City,2026-01-17,TBD
+Nottingham Forest,Arsenal,2026-01-17,TBD
+Sunderland,Crystal Palace,2026-01-17,TBD
+Tottenham Hotspur,West Ham United,2026-01-17,TBD
+Wolves,Newcastle United,2026-01-17,TBD
+AFC Bournemouth,Liverpool,2026-01-24,TBD
+Arsenal,Manchester United,2026-01-24,TBD
+Brentford,Nottingham Forest,2026-01-24,TBD
+Burnley,Tottenham Hotspur,2026-01-24,TBD
+Crystal Palace,Chelsea,2026-01-24,TBD
+Everton,Leeds United,2026-01-24,TBD
+Fulham,Brighton,2026-01-24,TBD
+Manchester City,Wolves,2026-01-24,TBD
+Newcastle United,Aston Villa,2026-01-24,TBD
+West Ham United,Sunderland,2026-01-24,TBD
+Aston Villa,Brentford,2026-01-31,TBD
+Brighton,Everton,2026-01-31,TBD
+Chelsea,West Ham United,2026-01-31,TBD
+Leeds United,Arsenal,2026-01-31,TBD
+Liverpool,Newcastle United,2026-01-31,TBD
+Manchester United,Fulham,2026-01-31,TBD
+Nottingham Forest,Crystal Palace,2026-01-31,TBD
+Sunderland,Burnley,2026-01-31,TBD
+Tottenham Hotspur,Manchester City,2026-01-31,TBD
+Wolves,AFC Bournemouth,2026-01-31,TBD
+AFC Bournemouth,Aston Villa,2026-02-07,TBD
+Arsenal,Sunderland,2026-02-07,TBD
+Brighton,Crystal Palace,2026-02-07,TBD
+Burnley,West Ham United,2026-02-07,TBD
+Fulham,Everton,2026-02-07,TBD
+Leeds United,Nottingham Forest,2026-02-07,TBD
+Liverpool,Manchester City,2026-02-07,TBD
+Manchester United,Tottenham Hotspur,2026-02-07,TBD
+Newcastle United,Brentford,2026-02-07,TBD
+Wolves,Chelsea,2026-02-07,TBD
+Aston Villa,Brighton,2026-02-11,TBD
+Brentford,Arsenal,2026-02-11,TBD
+Chelsea,Leeds United,2026-02-11,TBD
+Crystal Palace,Burnley,2026-02-11,TBD
+Everton,AFC Bournemouth,2026-02-11,TBD
+Manchester City,Fulham,2026-02-11,TBD
+Nottingham Forest,Wolves,2026-02-11,TBD
+Sunderland,Liverpool,2026-02-11,TBD
+Tottenham Hotspur,Newcastle United,2026-02-11,TBD
+West Ham United,Manchester United,2026-02-11,TBD
+Aston Villa,Leeds United,2026-02-21,TBD
+Brentford,Brighton,2026-02-21,TBD
+Chelsea,Burnley,2026-02-21,TBD
+Crystal Palace,Wolves,2026-02-21,TBD
+Everton,Manchester United,2026-02-21,TBD
+Manchester City,Newcastle United,2026-02-21,TBD
+Nottingham Forest,Liverpool,2026-02-21,TBD
+Sunderland,Fulham,2026-02-21,TBD
+Tottenham Hotspur,Arsenal,2026-02-21,TBD
+West Ham United,AFC Bournemouth,2026-02-21,TBD
+AFC Bournemouth,Sunderland,2026-02-28,TBD
+Arsenal,Chelsea,2026-02-28,TBD
+Brighton,Nottingham Forest,2026-02-28,TBD
+Burnley,Brentford,2026-02-28,TBD
+Fulham,Tottenham Hotspur,2026-02-28,TBD
+Leeds United,Manchester City,2026-02-28,TBD
+Liverpool,West Ham United,2026-02-28,TBD
+Manchester United,Crystal Palace,2026-02-28,TBD
+Newcastle United,Everton,2026-02-28,TBD
+Wolves,Aston Villa,2026-02-28,TBD
+AFC Bournemouth,Brentford,2026-03-04,TBD
+Aston Villa,Chelsea,2026-03-04,TBD
+Brighton,Arsenal,2026-03-04,TBD
+Everton,Burnley,2026-03-04,TBD
+Fulham,West Ham United,2026-03-04,TBD
+Leeds United,Sunderland,2026-03-04,TBD
+Manchester City,Nottingham Forest,2026-03-04,TBD
+Newcastle United,Manchester United,2026-03-04,TBD
+Tottenham Hotspur,Crystal Palace,2026-03-04,TBD
+Wolves,Liverpool,2026-03-04,TBD
+Arsenal,Everton,2026-03-14,TBD
+Brentford,Wolves,2026-03-14,TBD
+Burnley,AFC Bournemouth,2026-03-14,TBD
+Chelsea,Newcastle United,2026-03-14,TBD
+Crystal Palace,Leeds United,2026-03-14,TBD
+Liverpool,Tottenham Hotspur,2026-03-14,TBD
+Manchester United,Aston Villa,2026-03-14,TBD
+Nottingham Forest,Fulham,2026-03-14,TBD
+Sunderland,Brighton,2026-03-14,TBD
+West Ham United,Manchester City,2026-03-14,TBD
+AFC Bournemouth,Manchester United,2026-03-21,TBD
+Aston Villa,West Ham United,2026-03-21,TBD
+Brighton,Liverpool,2026-03-21,TBD
+Everton,Chelsea,2026-03-21,TBD
+Fulham,Burnley,2026-03-21,TBD
+Leeds United,Brentford,2026-03-21,TBD
+Manchester City,Crystal Palace,2026-03-21,TBD
+Newcastle United,Sunderland,2026-03-21,TBD
+Tottenham Hotspur,Nottingham Forest,2026-03-21,TBD
+Wolves,Arsenal,2026-03-21,TBD
+Arsenal,AFC Bournemouth,2026-04-11,TBD
+Brentford,Everton,2026-04-11,TBD
+Burnley,Brighton,2026-04-11,TBD
+Chelsea,Manchester City,2026-04-11,TBD
+Crystal Palace,Newcastle United,2026-04-11,TBD
+Liverpool,Fulham,2026-04-11,TBD
+Manchester United,Leeds United,2026-04-11,TBD
+Nottingham Forest,Aston Villa,2026-04-11,TBD
+Sunderland,Tottenham Hotspur,2026-04-11,TBD
+West Ham United,Wolves,2026-04-11,TBD
+Aston Villa,Sunderland,2026-04-18,TBD
+Brentford,Fulham,2026-04-18,TBD
+Chelsea,Manchester United,2026-04-18,TBD
+Crystal Palace,West Ham United,2026-04-18,TBD
+Everton,Liverpool,2026-04-18,TBD
+Leeds United,Wolves,2026-04-18,TBD
+Manchester City,Arsenal,2026-04-18,TBD
+Newcastle United,AFC Bournemouth,2026-04-18,TBD
+Nottingham Forest,Burnley,2026-04-18,TBD
+Tottenham Hotspur,Brighton,2026-04-18,TBD
+AFC Bournemouth,Leeds United,2026-04-25,TBD
+Arsenal,Newcastle United,2026-04-25,TBD
+Brighton,Chelsea,2026-04-25,TBD
+Burnley,Manchester City,2026-04-25,TBD
+Fulham,Aston Villa,2026-04-25,TBD
+Liverpool,Crystal Palace,2026-04-25,TBD
+Manchester United,Brentford,2026-04-25,TBD
+Sunderland,Nottingham Forest,2026-04-25,TBD
+West Ham United,Everton,2026-04-25,TBD
+Wolves,Tottenham Hotspur,2026-04-25,TBD
+AFC Bournemouth,Crystal Palace,2026-05-02,TBD
+Arsenal,Fulham,2026-05-02,TBD
+Aston Villa,Tottenham Hotspur,2026-05-02,TBD
+Brentford,West Ham United,2026-05-02,TBD
+Chelsea,Nottingham Forest,2026-05-02,TBD
+Everton,Manchester City,2026-05-02,TBD
+Leeds United,Burnley,2026-05-02,TBD
+Manchester United,Liverpool,2026-05-02,TBD
+Newcastle United,Brighton,2026-05-02,TBD
+Wolves,Sunderland,2026-05-02,TBD
+Brighton,Wolves,2026-05-09,TBD
+Burnley,Aston Villa,2026-05-09,TBD
+Crystal Palace,Everton,2026-05-09,TBD
+Fulham,AFC Bournemouth,2026-05-09,TBD
+Liverpool,Chelsea,2026-05-09,TBD
+Manchester City,Brentford,2026-05-09,TBD
+Nottingham Forest,Newcastle United,2026-05-09,TBD
+Sunderland,Manchester United,2026-05-09,TBD
+Tottenham Hotspur,Leeds United,2026-05-09,TBD
+West Ham United,Arsenal,2026-05-09,TBD
+AFC Bournemouth,Manchester City,2026-05-17,TBD
+Arsenal,Burnley,2026-05-17,TBD
+Aston Villa,Liverpool,2026-05-17,TBD
+Brentford,Crystal Palace,2026-05-17,TBD
+Chelsea,Tottenham Hotspur,2026-05-17,TBD
+Everton,Sunderland,2026-05-17,TBD
+Leeds United,Brighton,2026-05-17,TBD
+Manchester United,Nottingham Forest,2026-05-17,TBD
+Newcastle United,West Ham United,2026-05-17,TBD
+Wolves,Fulham,2026-05-17,TBD
+Brighton,Manchester United,2026-05-24,TBD
+Burnley,Wolves,2026-05-24,TBD
+Crystal Palace,Arsenal,2026-05-24,TBD
+Fulham,Newcastle United,2026-05-24,TBD
+Liverpool,Brentford,2026-05-24,TBD
+Manchester City,Aston Villa,2026-05-24,TBD
+Nottingham Forest,AFC Bournemouth,2026-05-24,TBD
+Sunderland,Chelsea,2026-05-24,TBD
+Tottenham Hotspur,Everton,2026-05-24,TBD
+West Ham United,Leeds United,2026-05-24,TBD

@@ -1,6 +1,5 @@
 # Ignore data directory
 /data/
-.env
 
 # Ignore macOS system files
 .DS_Store
@@ -9,7 +8,6 @@
 # Virtual environment
 soccer-forecasting-env/
 venv/
-env/
 .env
 
 # Jupyter
@@ -21,3 +19,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Ignore miscellaneous data folders
+Additional_Data/
