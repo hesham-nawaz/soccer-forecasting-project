@@ -5,7 +5,6 @@
 # Virtual environment
 soccer-forecasting-env/
 venv/
-env/
 .env
 
 # Jupyter
