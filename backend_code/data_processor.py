@@ -1,3 +1,5 @@
+from sklearn.model_selection import train_test_split
+
 def filter_matches(matches, matches_rel_cols, filter_start_date, filter_end_date, divisions_list):
     matches_col_filtered = matches[matches_rel_cols]
     # Apply both filters using logical AND (&)
@@ -8,11 +10,15 @@ def filter_matches(matches, matches_rel_cols, filter_start_date, filter_end_date
 
     return filtered_matches
 
-def train_test_split(filtered_matches):
-    # Shuffle the data
-    filtered_matches = filtered_matches.sample(frac=1).reset_index(drop=True)
-    # Split the data into train and test sets
-    train_size = int(len(filtered_matches) * 0.8)
-    train_set = filtered_matches.iloc[:train_size]
-    test_set = filtered_matches.iloc[train_size:]
-    return train_set, test_set
+def train_test_split_pipeline(filtered_matches, target, random_state=42, val_size=0.15, test_size=0.15):
+
+    X = filtered_matches.drop(columns=[target])
+    y = filtered_matches[target]
+
+    X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=(val_size + test_size), random_state=random_state, stratify=y)
+
+    val_test_ratio = val_size / (val_size + test_size)
+
+    X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=(1 - val_test_ratio), random_state=random_state, stratify=y_temp)
+
+    return X_train, X_val, X_test, y_train, y_val, y_test
